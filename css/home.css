@@ -364,6 +364,10 @@ html{
     transition: 0.3s;
 }
 
+.contact-form input placeholder {
+    color: #fff;
+}
+
 .nameZone, .emailZone {
     max-width: calc(50% - 10px);
 }
