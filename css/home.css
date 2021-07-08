@@ -278,25 +278,96 @@ html{
     bottom: 0;
 }
 
+
+
 .html:after {
-    width: 70%;
+    width: 0%;
+    animation: html;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .css:after {
-    width: 60%;
+    width: 0%;
+    animation: css;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .js:after {
-    width: 40%;
+    width: 0%;
+    animation: js;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .php:after {
-    width: 20%;
+    width: 0%;
+    animation: php;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .market:after {
-    width: 30%;
+    width: 0%;
+    animation: market;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .network:after {
-    width: 40%;
+    width: 0%;
+    animation: network;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
+@keyframes html {
+    0% {
+        width: 70%;
+        transition: 4s linear;           
+    }
+}
+@keyframes css {
+    0% {
+        width: 60%;
+        transition: 4s linear; 
+    }
+}
+@keyframes js {
+    0% {
+        width: 40%;
+        transition: 4s linear; 
+        
+    }
+}
+@keyframes php {
+    0% {
+        width: 20%;
+        transition: 4s linear; 
+    }
+}
+@keyframes market {
+    0% {
+        width: 30%;
+        transition: 4s linear; 
+        
+    }
+}
+@keyframes network {
+    0% {
+        width: 40%;
+        transition: 4s linear; 
+        
+    }
+}
 
 /* Contact Section */
 #contact {
@@ -355,17 +426,13 @@ html{
     margin: 10px 0;
     font-weight: 500;
     letter-spacing: 0.5px;
-    background-color: #fafafa;
+    background-color: #1f1f1f;
     border: none;
     outline: none;
     padding: 20px;
     border-radius: 25px;
     color: #fff;
     transition: 0.3s;
-}
-
-.contact-form input placeholder {
-    color: #fff;
 }
 
 .nameZone, .emailZone {
