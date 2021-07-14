@@ -134,6 +134,7 @@ html{
 }
 /* Botão */
 .button {
+    position: relative;
     border: none;
     padding: 24px;
     width: 190px;
@@ -385,6 +386,7 @@ html{
 
 
 .contact-info {
+    position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -445,6 +447,7 @@ html{
 }
 
 .contact-form .button2 {
+    position: relative;
     width: 150px;
     background-color: transparent;
     color: rgb(6,181,255);
