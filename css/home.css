@@ -305,9 +305,9 @@ html{
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-.php:after {
+.wpw:after {
     width: 0%;
-    animation: php;
+    animation: wpw;
     animation-duration: 6s;
     animation-direction: alternate;
     animation-timing-function: linear;
@@ -349,9 +349,9 @@ html{
         
     }
 }
-@keyframes php {
+@keyframes wpw {
     0% {
-        width: 20%;
+        width: 60%;
         transition: 4s linear; 
     }
 }
